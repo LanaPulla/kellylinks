@@ -75,7 +75,7 @@ elif o3 > 0:
             nome = input('Digite um nome: ')
             self.imprimir_linha(f"Olá {nome}, vamos calcular o seu IMC")
             a = input('Digite a sua altura: ')
-            a = a.replace(',', '.')
+            
             a = float(a)
             p = float(input('Digite o seu peso: '))
             IMC = p / (a * a)

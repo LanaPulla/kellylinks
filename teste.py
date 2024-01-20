@@ -157,8 +157,24 @@ if elemento in lista:
 else:
     print(f'{elemento} não está presente')'''
 
+'''print('Vamos calcular a média do aluno')
+prov1 = input("Nota prova 1: ")
+prov1 = prov1.replace(',', '.')  
+prov1 = float(prov1)
+prov2 = input("Nota prova 2: ")
+prov2 = prov2.replace(',', '.')  
+prov2 = float(prov2)
+media = (prov1 + prov2) / 2
+if media < 5:
+    print(f'Aluno reprovado com média`{media}')
+else:
+    print(f"Aluno aprovado com média {media}")'''
 
-	
+
+for c in range (100, 0, -1):
+    print(c)
+
+
 
 
 
