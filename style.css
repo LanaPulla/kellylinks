@@ -38,6 +38,7 @@ body * {
     max-width: 588px;
     margin: 56px auto 0px;
     padding: 0 24px;
+
 }
 #profile {
     text-align:center;
@@ -60,6 +61,7 @@ body * {
 
     margin: 4px auto;
 }
+
 /* button*/
 #switch button {
     width: 32px;
@@ -74,7 +76,7 @@ body * {
     z-index: 1;
     transform: translateY(-50%);
 
-    animation: slide-out 0.2s;
+    animation: slide-out 0.4s;
     }
 
 .light #switch button{
@@ -163,7 +165,7 @@ footer {
 
 @media (min-width:700px) {
     :root {
-        --bg--url: url(./assets/bg.jpg);
+        --bg-url: url(./assets/bg.jpg);
     }
 
     .light {
